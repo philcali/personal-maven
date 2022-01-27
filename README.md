@@ -1,6 +1,20 @@
-# Welcome to your CDK TypeScript project!
+# Personal Code Artifact Repo
 
-This is a blank project for TypeScript development with CDK.
+This simply little CDK project creates a CDN backed code repo
+for distributing artifacts (for things like Maven, etc).
+
+## How to customize
+
+Replace the following:
+
+- `bucketName`: the name of the artifact store
+- `HostZone`: need this for a vanity domain
+- `CNameRecord`: your vanity domain
+
+This repo creates CFN infra for maintaining `artifacts.philcali.me` repo.
+Good luck!
+
+## How to use it
 
 The `cdk.json` file tells the CDK Toolkit how to execute your app.
 

@@ -20,6 +20,7 @@ export class PersonalMavenStack extends Stack {
     super(scope, id, props);
 
     const bucket = new s3.Bucket(this, 'PersonalMavenArtifacts', {
+      bucketName: 'philcali-artifact-repo',
       blockPublicAccess: new s3.BlockPublicAccess({
         blockPublicAcls: true,
         blockPublicPolicy: true
