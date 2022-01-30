@@ -5,13 +5,9 @@ for distributing artifacts (for things like Maven, etc).
 
 ## How to customize
 
-Replace the following:
-
-- `bucketName`: the name of the artifact store
-- `HostZone`: need this for a vanity domain
-- `CNameRecord`: your vanity domain
-
+Edit the appropriate fields in `configuration.ts` for personalization.
 This repo creates CFN infra for maintaining `artifacts.philcali.me` repo.
+
 Good luck!
 
 ## How to use it
